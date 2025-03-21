@@ -1,0 +1,18 @@
+<!DOCTYPE html>         <! sayfanın HTML olduğunu belirtir >
+<html>                  <! sayfanın başlangıcını temsil eder >
+    <head>   
+            <! sonucu ve arama moturları ile ilgili bilgileri içerir >
+
+    </head>
+    <body>
+             <! ziyaretçilere gösterilecek içeriği bulundurur >
+    </body>
+</html>                  <! sayfanın sonunu temsil eder >
+
+<!   <title></title> sayfa ile ilgili açıklama barındırır  >
+<! <html lang="tr"> sayfanın dilini yapar >
+<!   <br/> başka satıra geçirir >
+<!   <p></p> paragraf tagı >
+<!  <meta charset ="utf-8"> türkçe karekterin düzgün görünmesini sağlar >
+<!   <hx></hx>  içeriğin başlık bilgisini barındırır >
+
