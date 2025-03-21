@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+      <title>Temel HTMl Kodları </title>
+      <meta charset="urf-8">
+   </head>
+
+   <body>
+      <h1 title="Anabaslik" id="anabaslik">Temel HTML Kodları:</h1>
+      <h class="kalin">Head Bölümü kodları</h2>
+      <p>title</p>
+      <p>charset</p>
+      <h2 class="kalin">Body Bölümü Kodladrı</h2>
+      <p>Hx Başlık Metinleri</p>
+      <p style="color:red">p paragraf etiketi </p>
+
+
+   </body>
+
+</html>
