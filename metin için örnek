@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+
+    </head>
+    <body>
+        <h1> Başlık...</h1>
+        <p id="r1" class="p1c" style="color:yellow" > onunla olan bir aniyi <br> veya onunla
+        olmayan bir anıyı saymak hissetmek veya <br>
+        öuhasbv kolay olduğunu düünnmelerş kasdar </p>
+        <p id="p2" style="color:green">
+            banan söylediği kısım buydu işte ama anlamıyoe veya anlatamıyoerum
+        </p>
+    </body>
+    <! <hx></hx>  içeriğin başlık bilgisini barındırır >
+    <! id <h1 id="başlik1">...</h1> HTML tagına benzersiz bir isim verir >
+    <! class <h2 class="cerceve">...</h2> ne yaptırırsan onu uygular kalın, ince gibi >
+    <! style <h1 style="color:red">...</h1>   yazıyı boyar >
+    <! title <h1 title= "Makale Başlığı">...</h1> HTML komutu üzerine gidince bir kutu içinde açıklama metni görünmesini sağlar >
+    <! <p> paragraf oluşturmak için kullanılır. </p> >
+    <! <b>metni kalınlaştırır <strong> kelime önemli ise kullanılır
+    <! <i> <em> metinleri eğer
+    <! <u> metnin altını çizer
+   <! <mark> metni vurgulu yapar
+   <! <sub> alt <sup> aşağıa metni çeker
+   <! <pre> metni nasıl yazarsan öyle gözükür
+
+</html>
