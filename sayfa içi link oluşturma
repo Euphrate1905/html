@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body id="ust">
+        <h1>Kurslarımız</h1>
+        <ul>
+            <a href="#yazılım">Yazılım Uzmanlığı</a> <br>
+            <a href="#sistem">sistem Uzmanlığı</a> <br>
+            <a href="wem">Wem Tasarım</a>
+        </ul>
+        <h2 id="Yazılım">Yazılım Uzmanlığı</h2>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+        jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+        jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+
+
+        <h2 id="sistem">Sistem Uzmanlığı</h2>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+        jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+         <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+        jaşvaioke lklşa aısb şoşb  şda sı ıv
+         </p>
+         
+        <h2 id="wem">Wem Tasarım</h2>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+            jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+        jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <p>aşnkbjd lskls  knsllb ss  sjvs ıjvsov
+        jaşvaioke lklşa aısb şoşb  şda sı ıv
+        </p>
+        <a href="#ust">Sayfa Başına Dön..</a>
+    </body>
+    <body>
+        <h1>Link Oluşturma</h1>
+        <a href="#"> Boş link.. </a>
+        <br>
+        <a href="index.html">Anasayfaya Git..</a>
+        <br>
+        <a href="http://www.fahrettinerdinc.com.tr">fahrettin Erdinç site..</a>
+        
+    </body>
+     </html>
+Bağlantı işlemleri
+<a href="hedef adres">nesne</a>
+<a href="#">boş link</a>
+<a href="#ust"> sayfa başı </a>
+<a href="index.html"> Anasayfa</a>
+<a href="http://www.site.com"> git</a>
+<a href="dosya.rar"> indir</a>    linki istediğin nesneye atayabiliriz
+
