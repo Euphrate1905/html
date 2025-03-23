@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    </head>
+    <body>
+        <h1>Galatsaray</h1>
+        <img src="indir.png" alt="Galatasaray spor külübü logosu" >
+        
+        <h2>Türkiye Harita</h2>
+        <img src="turkey.webp" height="300" width="500" >
+       
+    </body>
+</html>
+Resim İşlemleri
+ öncelikle eklemek istediğimiz resimleri ilgili HTML klasörüne taşımalıyız
+ <img src="resmin ismi.png" 
+alt="açıklama(resim olmazssa gözükür)" 
+title="başlık(resmin özerine gidince görülür)" 
+height="yükseklil"
+width="genişlik" >
+favicon denen kod ile istediğn resmi sitenin linki olan yerde gözüktürebilirsiniz
