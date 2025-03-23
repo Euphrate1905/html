@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Alıçveriş Listesi: </h1>
+        <ol start="4">  <! listenin istediğin sayıdan başlaması demek >
+            <li>Elma</li>
+            <li>Portakal</li>
+            <li>nar</li>
+            <dd>-En Sevdiğim</dd>
+        </ol>
+        <h2>İçecekler</h2>
+        <ul>
+            <li>milk</li>
+            <li>coffee</li>
+            <dd>.en sevdiğim</dd>
+            <li>tea</li>
+        </ul>
+    </body>
+</html>
+<! liste oluşturmak >
+<! <ol> numaralı liste oluşturmak için kullanılır</ol> >
+<! <ul>numaralı değilde imli olarak sıralar </ul> >
+<! <li>listedeki her bir elemanı göstermek için kullanılır</li> >
+<! <ol start="?" > numaranın istediğin sayıdan başlaması demmek</ol> >
+<! reversed yazarsak terseten numaralandırmak demek >
+<! <ol type="a"> ne isterse ona göre sıralar</ol>  >
+<! <dd>-.,.- numaraladığının alltına birde açıklama yazmak ıstersen ekstra bir başlık gibi</dd> >
+<! <dl>listeyi tanımlıyor</dl> >
