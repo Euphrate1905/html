@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Tablo Oluşturma</h1>
+        <table border="1">
+            <tr><td>Ad Soyad:</td><td>Fırat Dik</td></tr>
+            <tr><td>DOğum Yeri:</td><td>Van</td></tr>
+        </table>
+    </body>
+</html>
+
+<! <table border="tablo kenar kalınlığı">  >
+<! <tr> satırları </tr>  >
+<! <td> sütunları oluşturur</td>  >
+<! </table>   >
