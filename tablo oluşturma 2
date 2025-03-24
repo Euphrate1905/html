@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table border="1">
+            <caption>Ülke Nüfusları</caption>
+            <thead>
+                <tr><th>Ülke</th><th>Nüfus</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Türkiye</td><td>82</td></tr>
+                <tr><td>Yünanistan</td><td>12</td></tr>
+                <tr><td>Bulgaristan</td><td>9</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2">Toplam Nüfus:103</td></tr>
+            </tfoot>
+
+        </table>
+    </body>
+</html>
+
+<! ..........................................................................................>>
+<table>
+    <caption> tablo başlığı</caption>
+    <thead>
+        <tr><th><b>tablo ilk satırı</b></th></tr>
+    </thead>
+    <tbody>
+        <tr><td> tablonun gövdesi</td></tr>
+    </tbody>
+    <tfoot>
+        <tr><td></td></tr>tablonun en alt kısmı
+    </tfoot>
+</table>
+colspan=Satırlardaki Hücreleri birleştirmede kullanılır..
+rowspan=Sütundaki hücreleri birleştirmede kullanılır..
