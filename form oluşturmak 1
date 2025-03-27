@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Üye Kayıt Formu:</h1>
+        <form name="kayıt" action="kayıt.php" method="GET">
+            Ad Soyad: 
+            <br>
+            <input type="text" name="adsoyad" id="idadsoyad"
+            size="20" maxlength="30" required >
+            <br>
+            Email:
+            <br>
+            <input type="email" name="email" id=email required>
+            <br>
+            Web Sitesi:
+            <br>
+            <input type="url" name="adres" id="adres">
+            <br>
+            Yaşınız:
+            <br>
+            <input type="number" name="yaş" id="yas" required>
+            <br>
+            <input type="submit" value="Tamam">
+            <input type="reset" value="Temizle">
+        </form>
+    </body>
+</html>
+
+
+<!  Form oluşturmak
+<! <form> form oluşturmak için kullanılır</form>
+<! name=forma isim vermek için
+<! action=forma girilen verilerin hangi sayfaya gönderileceğini belirtmek
+<! method=verilen hedef sayfaya gönderilme yöntemini belşrtmek 
+<! required= karekter girmenin zorunlu olduğunu göstermek
+<! maxlength=max karekter sayısı
+<! <input type="submit" value="onay butonuna istediğini yazmak demek"> = onay kodu eklemek demek
+<! <input type="reset" (verileri silmek için) value="temizle"(üzerindeki metni belirlem demek)>
