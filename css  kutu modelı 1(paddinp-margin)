@@ -1,0 +1,30 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+
+            }
+            h1{
+                border-style: solid;
+                width: 200px;
+                height: 80px;
+                padding: 30px;
+                margin: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Eğitimlerimiz</h1>
+        <h2>Temel Birleşim</h2>
+        <p>Windows</p>
+        <p>Work</p>
+        <p>Excel</p>
+    </body>
+</html>
+
+**********************************************
+SS KUTU MODELİ
+padding= içerik ile kenarlık araasındakı boşluk
+margin= kenarlık ile diğer nesneler arasındaki boşluktur
+
