@@ -1,0 +1,13 @@
+div bir kutu oluşturmak için kullanılır..
+<body>
+<div>
+<header> başlık kısmı</header>
+<nav>sayfanın ana menü kısmı</nav>
+<section>
+    <article>sayfanın içeriği</article>
+</section>
+<aside>buraya yan menü gelir</aside>
+<footer>buraya telif bilgileri gelir</footer>
+</div>
+</body>
+
