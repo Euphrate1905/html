@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1
+            {
+                color: blue;
+                font-size: 30;
+            }
+            p
+            {
+             color: green;
+             font-size: 14;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Satır İçi CSS</h1>
+        <p>
+            fırst DİK 
+        </p>
+        <p>
+            yazılım mühendisliği
+        </p>
+        <h1>SAyfa içi CSS </h1>
+    </body>
+</html>
+
+*****************************************************************************
+
+CSS DERSLERİ
+HTML  komutlarını biçimlendirmek için kullanılır
+h1,h2,p
+{
+    color:blue;
+    font-size:16px
+}
+#id-değeri= sadece istediğin belli bir id değerini değiştirmek için 
+*css kodlarını birden fazla HTML komutuna uygulamak istersek CSS kodlarına bir isim verip class özelliği uygulanır 
+.css_isim 
+{
+    css komutları;
+}
+/* açıklama metini */
+CSS kodlarını 3 farklı yere yazabiliriz
+1. HTML tagın içine
+2. head bölüme 
+3. bir dosyaya
+***CSS kodları metin tabanlı bir dosya içine yazılır ve ihtiyaç duyulan her sayfaya bağlanır(link)
+<link rel="stylesheet" href="still.css"
+***HTML koduna daha yakın olan CSS kodu öncelıklıdır.
