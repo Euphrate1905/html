@@ -1,0 +1,39 @@
+CSS İLE BİÇİMLENDİRME
+**paragraf özellikleri
+test-indent = paragrafın ilk satırındaki girintisini ayarlar.
+text-align = paragrafın sola , sağa ortaya veya her iki kenara yaslanmasını sağlar..
+line-height = paragraftaki satırlar arası mesafeyi ayarlar.
+**metin özellikleri
+font-family:verdena= yazı tipi demek
+color= yazının rengi
+font-size=yazı tipi boyutu
+font-weight=yazının kalınlığı
+font-style=yazının sitili
+text-transform= yazını büyük küçük harf ayarlmak için kullanılır
+**listeler 
+none = made imi yok
+disk=daire
+circle=çember
+square=kare
+decimal0numara
+vb...
+örnek
+<style>
+    ul{
+        list-style-type: none;
+    }
+    li{
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-color: aqua;
+    }
+</style>
+**tablo 
+tüm başlıklara ayrı ayrı css kodları uygulanılabilir..
+hücre içindeki metinleri hizalamak için 
+*text-align
+*vertical-align özellikleri kullanılır.
+ıkı çizgi şeklinde görünen kenarlıkları tek çizgiye dönüştürmek istiyorsanız border-collapse:collapse; komutunu kullanırsınzı.
+
