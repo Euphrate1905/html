@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                border-style: solid;
+                border-width: 10px;
+                border-color: blue;
+                border-radius: 30px;
+                background-color: gray;
+                margin: 50px;  
+                padding: 20px;   
+                box-shadow: 10px 10px 20px red;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            kblvar AVBV vıHAV  s ıpbğ ağb 
+            akubapıb aaıba  oabo aboa ab bo
+        </p>
+        <p>
+            ajb a eıh boıer aoa a o   o ıaph b 
+            aıeurhp rao hao herbahbab  oaıeı b
+        </p>
+    </body>
+</html>
+
+*********************************************************************
+
+position:static =Her kutunun varsayılan değeridir. static değere sahip kutular nereye konulduysa orada bulunurlar. kutunun varsayılan değeridir.
+position:relative =Kutunun bulunduğu konuma göre taşımasını sağlar.. 
+position:fixed =Kutunun sayfaya göre ayarlanmasını sağlar..
+position:absolute =başka kutu içinde bulunan kutuları kontrol etmek için kullanılır. kutunun konumunu ayarlar.
+z-index =kutunun öne ve arkaya taşımasını sağlar..
+border-radius = kutunun kenarlarını yuvarlamak için kullanılır..
+overflow = özelliği ile kutularda taşan içeriğin durumunu belirler..
+overflow:visible = eğre içerik kutu içerisine sığmazsa taşan kısım alttan devam eder ve ziyaretçilere gösterilir.
+overflow:hidden = sığmazsa ziyaretçilere gösterilmez.
+overflow:scroll = sığmazsa ziyaretçilere gösterilmez ama bir kaydırma çubuğu ile taşan içeriğin görüntülenmesi sağlanır.
+overflow:auto = Eğer taşma olursa kaydırma çubuğu gösterilir ve taşan içerik kaydırma çubuğu ile görüntülenebilir.
+GÖLGE
+box-shadow = kutuya gölge yapmak için kullanılır.
+none = varsayılan değerdir. gölge olmamasını sağlar.
+h-shadow=gölgenin yatay boyutu.
+v-shadow=gölgenin dikey boyunu.
+blur=gölgenin kenarını belirnene boyuta yumuşatır.
+spread=tüm yönlerden genişlenmesini sağlar.
+color=gölge rengi.
+inset=gölgeyi nesnenin iç tarafına yapar.
