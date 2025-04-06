@@ -1,0 +1,351 @@
+<!DOCTYPE html>         <! sayfanın HTML olduğunu belirtir >
+ <html>                  <! sayfanın başlangıcını temsil eder >
+     <head>   
+             <! sonucu ve arama moturları ile ilgili bilgileri içerir >
+ 
+     </head>
+     <body>
+              <! ziyaretçilere gösterilecek içeriği bulundurur >
+     </body>
+ </html>                  <! sayfanın sonunu temsil eder >
+ 
+ TEMEL BİLGİLER
+ <! <title></title> sayfa ile ilgili açıklama barındırır  >
+ <! <html lang="tr"> sayfanın dilini yapar >
+ <! <br/> başka satıra geçirir >
+ <! <p></p> paragraf tagı >
+ <! <meta charset ="utf-8"> türkçe karekterin düzgün görünmesini sağlar >
+ <! <hx></hx>  içeriğin başlık bilgisini barındırır >
+ <! id <h1 id="başlik1">...</h1> HTML tagına benzersiz bir isim verir >
+ <! class <h2 class="cerceve">...</h2> ne yaptırırsan onu uygular kalın, ince gibi >
+ <! style <h1 style="color:red">...</h1>   yazıyı boyar >
+ <! title <h1 title= "Makale Başlığı">...</h1> HTML komutu üzerine gidince bir kutu içinde açıklama metni görünmesini sağlar >
+ <! <b>metni kalınlaştırır <strong> kelime önemli ise kullanılır
+ <! <i> <em> metinleri eğer
+ <! <u> metnin altını çizer
+<! <mark> metni vurgulu yapar
+<! <sub> alt <sup> aşağıa metni çeker
+<! <pre> metni nasıl yazarsan öyle gözükür
+<hr> yatay bir çizgi 
+
+LİSTE OLUŞTURMAK
+<ol> numaralı liste oluşturmak için kullanılır</ol>
+<ul>numaralı değilde imli olarak sıralar </ul>
+<li>listedeki her bir elemanı göstermek için kullanılır</li>
+<ol start="?" > numaranın istediğin sayıdan başlaması demmek</ol>
+reversed yazarsak terseten numaralandırmak demek
+ <ol type="a"> ne isterse ona göre sıralar</ol>
+ <dd>-.,.- numaraladığının alltına birde açıklama yazmak ıstersen ekstra bir başlık gibi</dd>
+ <dl>listeyi tanımlıyor</dl>
+
+ RESİM İŞLEMLERİ
+ öncelikle eklemek istediğimiz resimleri ilgili HTML klasörüne taşımalıyız
+ <img src="resmin ismi.png" alt="açıklama(resim olmazssa gözükür)" title="başlık(resmin özerine gidince görülür)" height="yükseklil" width="genişlik" >
+favicon denen kod ile istediğn resmi sitenin linki olan yerde gözüktürebilirsiniz
+
+BAĞLANTI İŞLEMLERİ
+sayfa içi
+<a href="hedef adres">nesne</a>
+<a href="#">boş link</a>
+<a href="#ust"> sayfa başı </a>
+<a href="index.html"> Anasayfa</a>
+<a href="http://www.site.com"> git</a>
+<a href="dosya.rar"> indir</a>    linki istediğin nesneye atayabiliriz
+sayfalar arası
+<body>
+    <center>
+    <h1>Site dolaşım Menüsü</h1>
+    <a href="index.html">Anasayfa</a> |
+    <a href="urunlerimiz.html">Ürünlerimiz</a> |
+    <a href="Hizmetlerimiz.html">Hizmetlerimiz</a> |
+    <a href="iletişim.html">İletişim</a>
+    <hr>
+    </center>
+    <h1>Hizmetlerimiz</h1>
+</body>
+indirme linki oluşturmak
+<h1>Anasayfa</h1>
+<h2>Türk <bayrağını İndir</h2>
+<a href="indir.png">Bayrağı indir</a>
+
+TABLO İŞLEMLERİ
+<table border="tablo kenar kalınlığı">
+<tr> satırları </tr>
+<td> sütunları oluşturur</td>
+</table>
+<table>
+    <caption> tablo başlığı</caption>
+    <thead>
+        <tr><th><b>tablo ilk satırı</b></th></tr>
+    </thead>
+    <tbody>
+        <tr><td> tablonun gövdesi</td></tr>
+    </tbody>
+    <tfoot>
+        <tr><td></td></tr>tablonun en alt kısmı
+    </tfoot>
+</table>
+colspan=Satırlardaki Hücreleri birleştirmede kullanılır..
+rowspan=Sütundaki hücreleri birleştirmede kullanılır..
+
+FORM OLUŞTURMAK
+submit= gönderme tuşu ekme=input, formda
+<form> form oluşturmak için kullanılır</form>
+name=forma isim vermek için
+action=forma girilen verilerin hangi sayfaya gönderileceğini belirtmek
+method=verilen hedef sayfaya gönderilme yöntemini belşrtmek 
+required= karekter girmenin zorunlu olduğunu göstermek
+maxlength=max karekter sayısı
+<input type="submit" value="onay butonuna istediğini yazmak demek"> = onay kodu eklemek demek
+<input type="reset" (verileri silmek için) value="temizle"(üzerindeki metni belirlem demek)>
+***tablo veya CSS ile formu daha düzgün gösterebiliriz..
+size=form elemanın genişliği
+value=form elemanın değeri
+required=formu doldurmanın zorunlu olduğunu gösterebiliriz
+name=form elemanın adı
+maxlength=form elemanına girilebilecek max elaman sayısı
+id=form elemanın tanım kodu
+disable=form elemanını pasif hale getirir
+autofocus=sayfa açıldığında fare imlecinin form elemanın aktif etmesini sağlar
+form metin alanı
+öneri örnwk<textarea name="öneri" rows="metin alanın kaç satır olabileceğini belirtmek" cols="yan yana kaç karekter bulunabilir"></textarea>
+onay kutusu yapma
+checkbox kullanılarak yapılır ama isimleri farklı olacak şekilde
+seçenek kutusu
+radio kullanılır ama isim yazma yeri aynı 
+type image yaparsak resim ekleyebiliriz
+
+VİDEO VE SES İŞLEMLERİ:
+ses dosyaları: mp3,wav,ogg
+video dosyaları: mp4,webM,ogg
+<video src="video ismi yaz" height="300"
+autoplay="sayfa açılır açılmaz videoyu oynatmak demek"
+controls="video kontrolleri"
+loop="videonu devamlı oynatılması demek" >
+</video>
+seste ise video yazmak yerine 
+<audio src=""></audio>
+
+SİTE YAYINLAMA
+https://infinityfree.net/ free hosting
+
+
+***********************************************************************
+CSS DERSLERİ
+HTML  komutlarını biçimlendirmek için kullanılır
+h1,h2,p
+{
+    color:blue;
+    font-size:16px
+}
+#id-değeri= sadece istediğin belli bir id değerini değiştirmek için 
+*css kodlarını birden fazla HTML komutuna uygulamak istersek CSS kodlarına bir isim verip class özelliği uygulanır 
+.css_isim 
+{
+    css komutları;
+}
+/* açıklama metini */
+CSS kodlarını 3 farklı yere yazabiliriz
+1. HTML tagın içine
+2. head bölüme 
+3. bir dosyaya
+***CSS kodları metin tabanlı bir dosya içine yazılır ve ihtiyaç duyulan her sayfaya bağlanır(link)
+<link rel="stylesheet" href="still.css"
+***HTML koduna daha yakın olan CSS kodu öncelıklıdır.
+
+SEÇİCİ KULLANIMI
+* = her şey seçilecek
+p = p tagı seçilecek
+#ilk = id  değeri #ilk olan seçilecek
+.son = class değeri .son olan seçilecek
+p strong = p tagı içerisindeki tüm stronglar seçilecek
+h1.egik = class değeri .egik olan h1 etiketleri seçilecek
+nav #buton = nav tagı içende id değeri #buton olan tüm elemenlar seçilecek
+.banner p = class değeri banner olan eleman içindeki p tagı seçilecek
+div>p = ebeveyni div olan tüm p tagları seçilecek
+
+CSS KUTU MODELİ
+padding= içerik ile kenarlık araasındakı boşluk
+margin= kenarlık ile diğer nesneler arasındaki boşluktur
+border-style = kenar çizgi tipini belirler.
+border-width= çizgi kalınlığı.
+border-color=kenarlık rengi.
+---
+**kutuların içine atama
+background-color = renk atama
+background-image =resim atama.
+background-size =resmin boyutunu ayarlar
+background-repeat: repeat ve no repeat tekrar edip etmemsi için kulllanılır.
+background-position: top center; resmin konumunu belirler..
+background-attachment: fixed=resmin sürekli ortada durması
+                       scroll= resmin aşağı yukarı hareket etmesini sağlar.
+---
+
+
+*************
+div bir kutu oluşturmak için kullanılır..
+<body>
+<div>
+<header> başlık kısmı</header>
+<nav>sayfanın ana menü kısmı</nav>
+<section>
+    <article>sayfanın içeriği</article>
+</section>
+<aside>buraya yan menü gelir</aside>
+<footer>buraya telif bilgileri gelir</footer>
+</div>
+</body>
+**************
+
+position:static =Her kutunun varsayılan değeridir. static değere sahip kutular nereye konulduysa orada bulunurlar. kutunun varsayılan değeridir.
+position:relative =Kutunun bulunduğu konuma göre taşımasını sağlar.. 
+position:fixed =Kutunun sayfaya göre ayarlanmasını sağlar..
+position:absolute =başka kutu içinde bulunan kutuları kontrol etmek için kullanılır. kutunun konumunu ayarlar.
+z-index =kutunun öne ve arkaya taşımasını sağlar..
+border-radius = kutunun kenarlarını yuvarlamak için kullanılır..
+overflow = özelliği ile kutularda taşan içeriğin durumunu belirler..
+overflow:visible = eğre içerik kutu içerisine sığmazsa taşan kısım alttan devam eder ve ziyaretçilere gösterilir.
+overflow:hidden = sığmazsa ziyaretçilere gösterilmez.
+overflow:scroll = sığmazsa ziyaretçilere gösterilmez ama bir kaydırma çubuğu ile taşan içeriğin görüntülenmesi sağlanır.
+overflow:auto = Eğer taşma olursa kaydırma çubuğu gösterilir ve taşan içerik kaydırma çubuğu ile görüntülenebilir.
+GÖLGE
+box-shadow = kutuya gölge yapmak için kullanılır.
+none = varsayılan değerdir. gölge olmamasını sağlar.
+h-shadow=gölgenin yatay boyutu.
+v-shadow=gölgenin dikey boyunu.
+blur=gölgenin kenarını belirnene boyuta yumuşatır.
+spread=tüm yönlerden genişlenmesini sağlar.
+color=gölge rengi.
+inset=gölgeyi nesnenin iç tarafına yapar.
+
+**kutunun sağa veya sola yaslanması için FLOAT özelliği kullanılır.
+<style>
+    img{float: left;
+        margin: 15px;
+    }
+</style>
+eğer nesnelerin kutu etrafını sarasını istemiyorsanız CLEAR özelliği kullanırsınız.
+---kutu modeli örnek
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #sayfa{
+                border-style: solid;
+                border-color: yellowgreen;
+                border-width: 2px;
+                width: 400px;
+                min-height: 400px;
+                margin: auto;
+            }
+            header{
+                border-style: dotted;
+                border-color: blue;
+                width: 360px;
+                height: 50px;
+                margin: auto;
+                background-color: chocolate;
+            }
+            nav{
+                border-style: dashed;
+                border-color: red;
+                width: 360px;
+                height: 30px;
+                margin: auto;
+                background-color: seagreen;
+            }
+            article{
+                border-style: solid;
+                border-color: green;
+                width: 200px;
+                height: 200px;
+                margin: auto;
+                background-color: yellow;
+                float: left;
+                position: relative;
+                left: 17px;
+            }
+            aside{
+                border-style: solid;
+                border-color: green;
+                width: 160px;
+                height: 200px;
+                margin: auto;
+                background-color: aqua;
+                float: right;
+                position: relative;
+                right: 17px;
+            }
+            footer{
+                border-style: double;
+                border-color: red;
+                width: 360px;
+                height: 30px;
+                margin: auto;
+                background-color: seagreen;
+                float: left;
+                position: relative;
+                left: 17px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="sayfa">
+            <header>
+                BURASU BANNER
+            </header>
+            <nav>
+                BURASI ANA MENÜ
+            </nav>
+            <article>
+               bURASI İÇERİK OLACAK 
+            </article>
+            <aside>
+                BURASI YAN MENÜ OLACAK
+            </aside>
+            <footer>
+                BURADA ALT MENÜ OLACAK
+            </footer>
+        </div>
+    </body>
+</html>
+
+CSS İLE BİÇİMLENDİRME
+**paragraf özellikleri
+test-indent = paragrafın ilk satırındaki girintisini ayarlar.
+text-align = paragrafın sola , sağa ortaya veya her iki kenara yaslanmasını sağlar..
+line-height = paragraftaki satırlar arası mesafeyi ayarlar.
+**metin özellikleri
+font-family:verdena= yazı tipi demek
+color= yazının rengi
+font-size=yazı tipi boyutu
+font-weight=yazının kalınlığı
+font-style=yazının sitili
+text-transform= yazını büyük küçük harf ayarlmak için kullanılır
+**listeler 
+none = made imi yok
+disk=daire
+circle=çember
+square=kare
+decimal0numara
+vb...
+örnek
+<style>
+    ul{
+        list-style-type: none;
+    }
+    li{
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-color: aqua;
+    }
+</style>
+**tablo 
+tüm başlıklara ayrı ayrı css kodları uygulanılabilir..
+hücre içindeki metinleri hizalamak için 
+*text-align
+*vertical-align özellikleri kullanılır.
+ıkı çizgi şeklinde görünen kenarlıkları tek çizgiye dönüştürmek istiyorsanız border-collapse:collapse; komutunu kullanırsınzı.
+
